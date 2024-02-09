@@ -1,0 +1,123 @@
+
+
+*{
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline:none; border:none;
+  text-decoration: none;
+  transition: all .2s linear; 
+  
+}
+
+*::selection{
+  background: var(--orange);
+  color:#fff;
+}
+
+section{
+  padding:2rem 9%;
+  
+}
+
+.App{
+  background: #9e8c8c;
+  text-align: center;
+  background: linear-gradient(to right,rgb(235, 187, 219), rgb(171, 211, 218));
+
+}
+
+.section-white .team-name{
+  padding:2rem;
+  font-size: 30px;
+}
+
+.topic .company{
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.topic .section-title{
+  color: rgb(15, 100, 100);
+  font-size: 40px;
+}
+
+.box-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  
+}
+
+.box-container .box{
+  flex:15rem; 
+  border-radius: .9rem;
+  overflow: hidden; 
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  height: 28rem;  
+  background-color: #fff;
+  
+}
+
+
+
+.box-container .box img{
+  height:15rem;
+  width:100%;
+  object-fit: scale-down;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  
+}
+
+.box-container .box .content{
+  padding:1rem;
+}
+
+.box-container .box .content h3{
+  font-size: 1rem;
+  color:#333;    
+}
+
+.box-container .box .content h4{
+  font-size: .8rem;
+  color:#333;    
+}
+
+.box-container .box .content p{
+  font-size: .7rem;
+  color:#666;    
+  padding:1rem 0;
+}
+
+.footer{
+  padding-top:50px;
+  padding-bottom: 0px;
+}
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
